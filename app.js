@@ -19,7 +19,7 @@ function createEntry (){
         div.appendChild(abvInput);
 // Creating the volume Input and Label
         const volumeLabel = document.createElement("label");
-        volumeLabel.innerHTML = 'Volume'
+        volumeLabel.innerHTML = 'Volume (in ml)'
         div.appendChild(volumeLabel);
         const volumeInput = document.createElement("input");
         volumeInput.type = 'text'
