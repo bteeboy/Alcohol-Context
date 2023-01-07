@@ -8,6 +8,7 @@ function createEntry (){
         // creating the div
         const div = document.createElement("div");
         div.classList.add(`alcohol-type${i+1}`)
+        div.classList.add('alcohol')
         document.body.appendChild(div)
         // Creating the Alcohol Percentage Input and Label
         const abvLabel = document.createElement("label");
