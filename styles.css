@@ -31,7 +31,7 @@ body {
 
 .selector {
   border: 3px solid white;
-  height: 70px;
+  height: 90px;
   width: 50%;
   border-radius: 8px;
   margin: 2% 25%;
@@ -107,8 +107,16 @@ button {
       grid-template-columns: 1fr;
       margin-top: 30px;
   }
+  .selector {
+    height: 250px;
+  }
+  .results {
+    height: 150px;
+  }
+
   .alcohol {
-  height: 150px;
+  height: 170px;
+
   
   }
 }
