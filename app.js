@@ -94,7 +94,6 @@ function alcohol() {
         finalResult = secondResult + firstResult + thirdResult +fourthResult
     }
     // Displaying the results, and giving the user context as to how much they drank
-    console.log(finalResult)
     let context = `This is equivalent to ${(Math.round(finalResult/17.75*10))/10} beers (355ml/5%) and ${(Math.round(finalResult/90*10))/10} bottle(s) of wine (750ml/12%)`
     console.log(context)
 
@@ -103,7 +102,7 @@ function alcohol() {
     document.body.appendChild(resultsDiv)
 
     const resulth3 = document.createElement('h3')
-    resulth3.innerText = finalResult
+    resulth3.innerText = `${finalResult} ml of alcohol`
     resultsDiv.appendChild(resulth3)
 
     const contextp = document.createElement('p')
