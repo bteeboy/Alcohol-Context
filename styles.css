@@ -31,6 +31,7 @@ body {
 
 .selector {
   border: 3px solid white;
+  text-align: center;
   height: 90px;
   width: 50%;
   border-radius: 8px;
