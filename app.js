@@ -35,6 +35,7 @@ function createEntry (){
     quantityInput.id = `quantityInput${i+1}`
     div.appendChild(quantityInput);
     }
+    // Making the button and making it work, then making it only clickable once
     let drinkButton = document.createElement('button')
     drinkButton.innerHTML = 'Submit'
     drinkButton.id = 'alcoholCalculationButton'
